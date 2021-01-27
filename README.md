@@ -1,6 +1,6 @@
 # electron-demo-bootstrap
 
-**Clone and run for a quick way to see Electron in action.**
+** Electron 을 실행 하려면 다음과 같이 따라하시면 됩니다. **
 
 This is a minimal Electron application based on the [demo-bootstrap Guide](https://github.com/wooyoungkwak/electronjs-bootstrap-demo.git) within the Electron documentation.
 
@@ -23,13 +23,11 @@ git clone https://github.com/wooyoungkwak/electronjs-bootstrap-demo.git
 cd electronjs-bootstrap-demo
 # Install dependencies
 npm install
-# Run the app
+# app 실행
 npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Resources for Learning Electron
+## 더 많은 electronjs 에 대해서는 다음을 참조 하세요.
 
 - [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
 - [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
@@ -39,4 +37,4 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[EMPTY FILE](LICENSE.md)
