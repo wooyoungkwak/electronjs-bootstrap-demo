@@ -16,11 +16,11 @@
 repository 를 복사 하고 실행 하려면  [Git](https://git-scm.com) 과 [Node.js](https://nodejs.org/en/download/) 과 [npm](http://npmjs.com) 이 설치 되어 있어야 합니다. 
 다음 명령어를 순차적으로 실행 하세요:
 ```bash 
-# Clone this repository
+# repository 복사
 git clone https://github.com/wooyoungkwak/electronjs-bootstrap-demo.git
-# Go into the repository
+# electronjs-bootstrap-demo 이동 
 cd electronjs-bootstrap-demo
-# Install dependencies
+# 의존성 패키지 설치
 npm install
 # app 실행
 npm start
