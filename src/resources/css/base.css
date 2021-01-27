@@ -1,0 +1,83 @@
+/* base.css */
+
+.c {
+    text-align: center;
+}
+
+.l {
+    text-align: left;
+}
+
+.r {
+    text-align: left;
+}
+
+
+.l10 {
+    padding-left: 10px;
+}
+.l11 {
+    padding-left: 11px;
+}
+.l12 {
+    padding-left: 12px;
+}
+.l13 {
+    padding-left: 13px;
+}
+.l14 {
+    padding-left: 14px;
+}
+.l15 {
+    padding-left: 15px;
+}
+.l16 {
+    padding-left: 16px;
+}
+.l17 {
+    padding-left: 17px;
+}
+.l18 {
+    padding-left: 18px;
+}
+.l19 {
+    padding-left: 19px;
+}
+.l20 {
+    padding-left: 20px;
+}
+
+
+.r10 {
+    padding-right: 10px;
+}
+.r11 {
+    padding-right: 11px;
+}
+.r12 {
+    padding-right: 12px;
+}
+.r13 {
+    padding-right: 13px;
+}
+.r14 {
+    padding-right: 14px;
+}
+.r15 {
+    padding-right: 15px;
+}
+.r16 {
+    padding-right: 16px;
+}
+.r17 {
+    padding-right: 17px;
+}
+.r18 {
+    padding-right: 18px;
+}
+.r19 {
+    padding-right: 19px;
+}
+.r20 {
+    padding-right: 20px;
+}

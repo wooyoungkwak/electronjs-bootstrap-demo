@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self';"> -->
+
+    <script>
+      // jquery 로딩
+      window.$ = window.jQuery = require('jquery');
+
+      // bootstrap 로딩 
+      window.popper = require('popper.js');
+      require('bootstrap');
+    </script>
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Hello Bootstrap</title>
+  </head>
+  <body>
+
+    <h1> Hello WORLD ~ BOOTSTRAP !</h1>
+
+    <div>
+      <!-- <a class="btn btn-lg btn-link" href="http://bootstrapk.com/getting-started/#template"> -->
+        http://bootstrapk.com/getting-started/#template
+      <!-- </a>  -->
+    </div>
+    <a id="theme" class="btn btn-info">theme_template</a>
+    <a id="theme2" class="btn btn-info">theme_template2</a>
+    <a id="grid" class="btn btn-info">grid_template</a>
+    <a id="product" class="btn btn-info">product_template</a>
+    <a id="navBar" class="btn btn-info">navBar_template</a>
+
+    <div style="position: fixed; bottom: 20px;">
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript">
+  
+    const rootPath = __dirname;
+    const resourcePath = rootPath + '/src/resources';
+    const htmlPath = rootPath + '/src/html';
+
+    const { ipcRenderer, remote } = require('electron');
+    
+    $('#theme').on('click', function() {
+      ipcRenderer.send("main-themeWindow", {text:" theme open ... (with bootstrap v.3.3.2)"});
+    });
+    
+    $('#theme2').on('click', function() {
+      ipcRenderer.send("main-theme2Window", {text:" theme2 open ... (with bootstrap v.50) "});
+    });
+
+    $('#grid').on('click', function() {
+      ipcRenderer.send("main-gridWindow", {text:" grid open ... "});
+    });
+
+    $('#product').on('click', function() {
+      ipcRenderer.send("main-productWindow", {text:" product open ... "});
+    });
+
+    $('#navBar').on('click', function() {
+      ipcRenderer.send("main-navBarWindow", {text:" product open ... "});
+    });
+
+  </script>
+
+</html>
